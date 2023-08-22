@@ -1,6 +1,6 @@
 import { Button, Div, TextContainter } from "./functions";
 
-function Header() {
+function Header(function1, function2, function3) {
   const header = document.createElement("header");
 
   header.appendChild(TextContainter("h1", "Mozzafiato"));
@@ -11,9 +11,9 @@ function Header() {
   const buttonContact = Button("Contact");
 
   //button functions
-  buttonHome.addEventListener("click", () => console.log("Home"));
-  buttonMenu.addEventListener("click", () => console.log("Menu"));
-  buttonContact.addEventListener("click", () => console.log("Contact"));
+  buttonHome.addEventListener("click", () => function1());
+  buttonMenu.addEventListener("click", () => function2());
+  buttonContact.addEventListener("click", () => function3());
 
   const buttonDiv = Div();
   buttonDiv.appendChild(buttonHome);
