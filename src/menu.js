@@ -4,6 +4,10 @@ import { Button, Div, TextContainter } from "./functions";
 const MenuItem = (item) => {
   const menuItem = Div();
 
+  const menuImage = new Image();
+  menuImage.src = item.image;
+  menuItem.appendChild(menuImage);
+
   menuItem.appendChild(TextContainter("h2", item.name));
   menuItem.appendChild(TextContainter("p", item.ingredients));
 

@@ -1,44 +1,53 @@
+import Salsiccia from "./photos/salsiccia.png";
+import Gamberi from "./photos/gamberi.png";
+import Pepe from "./photos/pepe.png";
+import Disgustoso from "./photos/disgustoso.png";
+import Colorato from "./photos/colorato.png";
+import Pomodoro from "./photos/pomodoro.png";
+import Crema from "./photos/crema.png";
+import Carne from "./photos/carne.png";
+
 const data = [
   {
     name: "Salsiccia",
-    image: "./photos/salsiccia.png",
+    image: Salsiccia,
     ingredients:
       "Tomato sauce, Mozarella, Tomato, Homemade sausage, Garlic, Basil",
   },
   {
     name: "Gamberi",
-    image: "./photos/gamberi.png",
+    image: Gamberi,
     ingredients: "Tomato sauce, Mozarella, Shrimps, Feta cheese, Olives, Basil",
   },
   {
     name: "Pepe",
-    image: "./photos/pepe.png",
+    image: Pepe,
     ingredients: "Tomato sauce, Mozarella, Chilli flakes, Olives, Basil",
   },
   {
     name: "Disgustoso",
-    image: "./photos/disgustoso.png",
+    image: Disgustoso,
     ingredients: "Tomato sauce, Bacon, Pineapple, Olives, Basil",
   },
   {
     name: "Colorato",
-    image: "./photos/colorato.png",
+    image: Colorato,
     ingredients: "Tomato sauce, Mozarella, Onion, Pepper, Champignons, Basil",
   },
   {
     name: "Pomodoro",
-    image: "./photos/pomodoro.png",
+    image: Pomodoro,
     ingredients: "Tomato sauce, Mozarella, Tomato, Onion, Feta cheese, Chilli",
   },
   {
     name: "Crema",
-    image: "./photos/crema.png",
+    image: Crema,
     ingredients:
       "White sauce, Mozarella, Shrimps, Salmon, Pineapple, Olives, Basil",
   },
   {
     name: "Carne",
-    image: "./photos/carne.png",
+    image: Carne,
     ingredients:
       "Tomato sauce, Mozarella, Homemade sausage, Bacon, Garlic, Pepper, Chilli",
   },
